@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml-stylesheet type="text/xsl" href="style.xsl"?> -->
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
 
 <personalDetail
-xmlns:a="https://maya.technical.com",
-xmlns:b="https://acet.edu.in",
-xmlns:c="https://nepal.com"
->
-    <user id="1" >
+    xmlns:a="https://maya.technical.com"
+    xmlns:b="https://acet.edu.in"
+    xmlns:c="https://nepal.com">
+
+    <user id="1">
         <a:fname>pawan</a:fname>
         <a:lname>patel</a:lname>
         <a:email>pawan@gmail.com</a:email>
     </user>
 
-    <user id="2" >
+    <user id="2">
         <b:fname>prameshwar kumar</b:fname>
         <b:lname>patel</b:lname>
         <b:email>prameshwar@gmail.com</b:email>
     </user>
 
-    <user id="3" >
+    <user id="3">
         <c:fname>niraj</c:fname>
         <c:lname>yadav</c:lname>
         <c:email>niraj@gmail.com</c:email>
     </user>
+
 </personalDetail>
