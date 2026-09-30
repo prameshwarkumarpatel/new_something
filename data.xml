@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE person [
+    <!ELEMENT person (name, email, mobile,entity)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT mobile (#PCDATA)>
+    <!ENTITY fname (#PCDATA)>
+    <!ENTITY lname (#PCDATA)> 
+]>
+
+<person>
+    <name>pawankrpatel</name>
+    <email>pawan@gmail.com</email>
+    <mobile>980683199</mobile>
+    <entity>&fname;&lname;</entity>
+</person>
